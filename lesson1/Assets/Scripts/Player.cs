@@ -235,12 +235,14 @@ public class Player : MonoBehaviour
         {
             max = false;
             jump = false;
+            
         }
         if (Collision != null && !jump)
         {
             Vector3 vec = Collision.transform.position;
-            Vector3 vec2 = Collision.GetComponent<Collision>();
-            transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+            //Vector3 vec2 = Collision.GetComponent<Collision>();
+            if (transform.position.y > Collision.transform.position.y)
+                transform.position = new Vector3(transform.position.x, Collision.transform.position.y + transform.localScale.y, transform.position.z);
         }
     }
 
