@@ -1,5 +1,6 @@
 lesson1/Library/
 lesson1/Temp/
+**/*.meta
 lesson1/[Aa]ssets/[Ss]prites/*.png
 lesson1/[Aa]ssets/[Ss]prites/**/*.bmp
 lesson1/[Aa]ssets/[Tt]exture/*.png
