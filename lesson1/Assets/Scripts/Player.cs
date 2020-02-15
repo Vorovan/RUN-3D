@@ -240,7 +240,7 @@ public class Player : MonoBehaviour
         {
             Vector3 vec = Collision.transform.position;
             Vector3 vec2 = Collision.GetComponent<Collision>();
-            transform.position = new Vector3();
+            transform.position = new Vector3(transform.position.x, 0, transform.position.z);
         }
     }
 
