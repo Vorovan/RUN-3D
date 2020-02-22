@@ -90,7 +90,6 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-		print("asdads");
         Cursor.visible = PressEsc;
         if (Win || CanGoOnNextLevel)
         {
@@ -239,8 +238,9 @@ public class Player : MonoBehaviour
         {
             max = false;
             jump = false;
-          //  jump = true;
-
+            //  jump = true;
+            //new trxt
+            new GameObject();
 
         }
         if (Collision != null && !jump)
