@@ -238,6 +238,7 @@ public class Player : MonoBehaviour
         {
             max = false;
             jump = false;
+
         }
         if (Collision != null && !jump)
         {
