@@ -240,6 +240,7 @@ public class Player : MonoBehaviour
             jump = false;
 
 
+
         }
         if (Collision != null && !jump)
         {
