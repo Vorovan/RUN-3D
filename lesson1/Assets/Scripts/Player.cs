@@ -238,7 +238,7 @@ public class Player : MonoBehaviour
         {
             max = false;
             jump = false;
-
+            jump = true;
 
 
         }
