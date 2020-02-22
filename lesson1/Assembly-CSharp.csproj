@@ -263,9 +263,6 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>C:/Data/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
- <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/student/Documents/GitHub/RUN-3D/lesson1/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Data/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
  </Reference>
@@ -611,24 +608,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Data/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{F032C3FE-DCD2-AC00-E4DF-4A9D3F19981B}</Project>
-      <Name>SteamVR_Input_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{81B2B25D-577D-27B6-D13D-8B96A4EAF394}</Project>
-      <Name>SteamVR_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{751F85C2-B10C-8304-8940-034855589163}</Project>
-      <Name>SteamVR</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{7DA717B7-5CD9-074E-98D7-9D55DC494BB6}</Project>
-      <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

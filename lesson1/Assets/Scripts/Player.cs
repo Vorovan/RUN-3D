@@ -330,6 +330,10 @@ public class Player : MonoBehaviour
         }
         yield return new WaitForSeconds(1);
         StartCoroutine(Spawn());
+
+
+
+
     }
 
     #region gui
