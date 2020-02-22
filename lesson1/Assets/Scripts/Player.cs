@@ -90,6 +90,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+		print("yo!");
         Cursor.visible = PressEsc;
         if (Win || CanGoOnNextLevel)
         {
