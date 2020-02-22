@@ -6,6 +6,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
+
+
+
     #region variable
     public int playerLevel = 1;
     public int Level = 1;
