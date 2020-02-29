@@ -90,15 +90,14 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-		print("asdads");
         Cursor.visible = PressEsc;
         if (Win || CanGoOnNextLevel)
         {
             Cursor.visible = true;
             return;
         }
-        if (TimeToDie < 0)
-            SceneManager.LoadScene(0);
+     //   if (TimeToDie < 0)
+      //      SceneManager.LoadScene(0);
         TimeToDie -= Time.deltaTime;
         TimeGame += Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.Escape))
